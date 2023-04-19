@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <meta charset="utf-8">
+    <meta name="description" content="This is the website of Jeremy Mahrer Cellos. Jeremy
+    Mahrer trained at the London College of Furniture and has been hand crafting cellos for
+    over 30 years.">
+    <%= stylesheet_link_tag "application", media: 'all', "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+    <article id="main">
+      <%= render 'layouts/header' %>
+      <%= yield %>
+    </article>
+  </body>
+</html>

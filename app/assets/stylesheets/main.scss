@@ -1,0 +1,131 @@
+// Place all the styles related to the Main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  padding-top: 0;
+  background-color: #ffe6cc; // #e6ccb3;
+  font-family: "Century Gothic", Helvetica, sans-serif;
+}
+
+article#main {
+  background-image: url(image_path('jeremy2SansAddressFlatScaled.png'));
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  min-height: 1554px;
+  color: #663300;
+
+  h1 {
+    text-align: center;
+    // color: #663300;
+  }
+
+  p {
+    margin-left: 1em;
+    margin-right: 1em;
+    // color: #fff;
+    a:link {
+      color: #4d2600;
+    }
+    
+    a:visited {
+      color: #663300;
+    }
+  }
+
+  img {
+    padding-top: 2em;
+  }
+
+  header {
+    width: 100%;
+    text-align: center;
+    color: #513686;
+    height: 250px;
+    h1 {
+      margin: 0;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      border-bottom: dashed;
+    }
+    nav {
+      font-size: 1.5em;
+      background-color: #333333;
+      color: #fff;
+      ul {
+        padding: 0;
+        padding-bottom: 5px;
+        text-align: center;
+        margin-bottom: 0;
+        li {
+          list-style: none;
+          list-style-type: none;
+          display:inline-block;
+          text-decoration: none;
+          width: 24%;
+        }
+      }
+
+      a {
+        margin: 0;
+        font-size: 0.8em;
+        color: #fff;
+      }
+    }
+  }
+
+  #page_content {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 2em;
+    background: rgba(255, 229, 208, 0.7);
+    // background-image: url(image_path('jeremy2SansAddressFlatScaled.png'));
+    // min-height: 1554px;
+
+    input {
+      width: 90%;
+    }
+
+    textarea {
+      width: 90%;
+      height: 10em;
+    }
+
+    .right_image {
+      float: right;
+      // display: inline-block;
+      padding-right: 2em;
+    }
+
+    address {
+      margin-left: 10%;
+    }
+    
+    a:link {
+      color: #4d2600;
+    //  text-decoration: none;
+    }
+    
+    a:visited {
+      color: #663300;
+    }
+
+  }
+
+  .CelloOverview {
+    columns: 200px 2;
+    -webkit-columns: 200px 2;
+    -moz-columns: 200px 2;
+  }
+
+  #cello_details {
+    columns: 200px 2;
+    -webkit-columns: 200px 2;
+    -moz-columns: 200px 2;    
+  }
+
+  .NoDecoration {
+    text-decoration: none;
+  }
+}
